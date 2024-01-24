@@ -1,0 +1,201 @@
+:root{
+    --p-color: rgb(85, 85, 85);
+    --text-color: black;
+    --hover: gray;
+}
+
+@media(max-width: 1259px){
+    .about-content{
+     flex-wrap: wrap; 
+    }
+    .experience{
+        margin-top: 18rem;
+    } 
+}
+
+@media(max-width: 1068px){
+    section {
+        margin: 0 4rem;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .menu{
+        display: block;
+    }
+    .close-btn{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        color: white;
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background: var(--text-color);
+        color: var(--text-color);
+        height: 450px;
+    }
+    .active{
+        display: flex;
+    }
+    .nav a{
+        color: white;
+        margin-block: 40px;
+    }
+    .nav a:hover{
+        background: var(--p-color);
+        color: white;
+    }
+    .experience-box {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .project-container {
+        flex-wrap: wrap;
+    }
+    .project-content {
+        margin-bottom: 20px;
+        margin-inline: 10px;
+    }
+    .contact{
+        margin-top: 30rem;
+    }
+    
+}
+
+@media(max-width: 857px){
+    .home {
+        gap: 2rem;
+    }
+    .experience-container {
+        flex-wrap: wrap;
+    }
+    .experience-content {
+        margin-bottom: 10px;
+    }
+    .about-experience {
+        display: flex;
+        justify-content: center;
+        margin-top: 0rem;
+    }
+    .about-img img {
+        justify-content: center;
+        width: 340px;
+        height: 340px;
+        border-radius: 20px;
+    }
+    .about-content {
+        gap: 1rem;
+    }
+}
+
+@media(max-width: 857px){
+    .contact{
+        margin-top: 50rem;
+    }
+    .home {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 771px){
+    .content img {
+        height: 200px;
+        width: 200px;
+    }
+    .content-text p {
+        font-size: 15px;
+    }
+    
+    .content-text h2 {
+        font-size: 25px;
+    }
+    
+    .content-text h4 {
+        font-size: 15px;
+    }
+    .btn a {
+        font-size: 10px;
+    }
+    .btn-b a {
+        font-size: 10px;
+    }
+    .about-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .about-experience {
+        flex-direction: column;
+    }
+    .about-exp{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 574px){
+    .home{
+        gap: 20px;
+    }
+    .experience{
+        margin-top: 20rem;
+        margin-bottom: 6rem;
+    }
+    .text-about p {
+        font-size: 10px;
+    }
+    .heading p {
+        font-size: 13px;
+    }
+    
+    .heading h1 {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-link{
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 470px){
+    .close-btn{
+        display: block;
+        position: absolute;
+        top: 80px;
+        right: 40px;
+        color: white;
+    }
+    .nav-bar a {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 365px){
+    .navbar {
+        height: 10vh;
+    }
+    .content img {
+        height: 160px;
+        width: 160px;
+    }
+    section {
+        margin: 0 1rem;
+    }
+    .home-btn{
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+}
